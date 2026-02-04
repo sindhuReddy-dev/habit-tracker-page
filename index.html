@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Life Balance</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-container fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://marketplace.canva.com/nK-FI/MAG582nK-FI/1/tl/canva-open-book-icon.-book-icon.-open-book-for-reading-icon-MAG582nK-FI.png"
+            class="book-logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto nav-items-container">
+            <a class="nav-link active" id="navItem1" href="#homeSection">
+              Home
+              <span class="sr-only"></span>
+            </a>
+            <a class="nav-link" id="navItem2" href="#learningSection">Learning</a>
+            <a class="nav-link" id="navItem3" href="#monthlyPlannnerSection">Planner</a>
+            <a class="nav-link" id="navItem4" href="#resourceSection">Resources</a>
+            <a class="nav-link" id="navItem5" href="#aboutMeSection">About</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+        <div id="homeSection" class="Home-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mt-4">Home / Today</h1>
+                        <hr/>
+                        <h1 class="welcome-heading">Welcome Back!</h1>
+                        <p class="date-para ml-2">Tuesday, April 12</p>
+                    </div>
+                    <div class="col-12 col-md-7 mb-3">
+                        <div class="today-card-container">
+                            <h4>Today's Focus</h4>
+                            <!-- <div class="task-card"></div> -->
+                                <p class="task-card">Complete portfolio project</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 mb-3">
+                        <div class="quote-card">
+                            <h4>Quote of the Day</h4>
+                            <hr/>
+                            <p>"Success is not final, failure is not fatal: <br/>
+                                It is the courage to continue that counts."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h4>Top 3 Tasks</h4>
+                        <hr/>
+                        <div>
+                            <input type="checkbox"/>
+                            <span>Finish homepage design</span>
+                        </div>
+                        <hr/>
+                        <div>
+                            <input type="checkbox"/>
+                            <span>Review CSS notes</span>
+                        </div>
+                        <hr/>
+                        <div>
+                            <input type="checkbox"/>
+                            <span>Plan weekend study</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="learningSection" class="Learning-tracker-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mt-5">Learning Tracker</h1>
+                        <hr/>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mt-3">
+                        <div class="subject-card">
+                            <h4>HTML Basics</h4>
+                            <hr/>
+                            <div class="status-card-container">
+                                <p class="completed-card">Completed</p>
+                                <p class="completed-percent">100%</p>
+                            </div>
+                            <div class="bar-container">
+                                <div class="completed-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mt-3">
+                        <div class="subject-card">
+                            <h4>CSS Styling</h4>
+                            <hr/>
+                            <div class="status-card-container">
+                                <p class="completed-card">Completed</p>
+                                <p class="completed-percent">100%</p>
+                            </div>
+                            <div class="bar-container">
+                                <div class="completed-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mt-3">
+                        <div class="subject-card">
+                            <h4>JavaScript</h4>
+                            <hr/>
+                            <div class="status-card-container">
+                                <p class="Ongoing-card">Ongoing</p>
+                                <p class="completed-percent">10%</p>
+                            </div>
+                            <div class="ongoing-container">
+                                <div class="ongoing-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mt-3">
+                        <div class="subject-card">
+                            <h4>Python</h4>
+                            <hr/>
+                            <div class="status-card-container">
+                                <p class="Ongoing-card">Ongoing</p>
+                                <p class="completed-percent">10%</p>
+                            </div>
+                            <div class="ongoing-container">
+                                <div class="ongoing-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="monthlyPlannnerSection" class="monthly-planner-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mt-5">Monthly Planner</h1>
+                        <hr/>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="targets-card mt-4">
+                            <h4>February</h4>
+                            <hr/>
+                            <div class="d-flex flex-row ">
+                                <div class="target-border column">
+                                    <h2>Target</h2>
+                                    <ol>
+                                        <li>Projects</li>
+                                        <ul>
+                                            <li>Habit Tracker</li>
+                                            <li>Restaurant Page</li>
+                                            <li>Portfolio </li>
+                                        </ul>
+                                        <li>JavaScript Basics</li>
+                                    </ol>
+                                </div>
+                                <div class="column pl-3">
+                                    <h2>Achievements</h2>
+                                    <ul  class="achieve-list-items">
+                                        <li>Css transitions</li>
+                                        <li>Habit tracker</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="resourceSection" class="resources-sectiion">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <h1 class="section-heading mt-5">Resources Library</h1>
+                        <hr/>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="targets-card">
+                            <h4>Design Tools</h4>
+                            <hr/>
+                            <ul>
+                                <li>Figma Tutorials</li>
+                                <li>Color palettes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="targets-card">
+                            <h4>Coding Guides</h4>
+                            <hr/>
+                            <ul>
+                                <li>Nxtwave</li>
+                                <li>Apna College</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="targets-card">
+                            <h4>Helpful Channels</h4>
+                            <hr/>
+                            <ul>
+                                <li>Swaroop Talkies</li>
+                                <li>SuperSimpleDev</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="aboutMeSection" class="about-me-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mt-5">About Me</h1>
+                        <hr/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4>My Goals</h4>
+                        <ul class="goals-items">
+                            <li>Become a Mern Stack Developer</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4>Skills & Journey</h4>
+                        <ul class="goals-items">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Learning JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+        </script>
+    </body>
+</html>
